@@ -6,9 +6,11 @@ This repository contains the implementations of StrongSORT, BoT-SORT, ByteTracke
 Project Overview
 
 Auto-Annotation with GroundingDINO
+
 GroundingDINO is utilized to automatically annotate images, streamlining the data preparation process by generating accurate bounding boxes and labels. This approach significantly reduces the manual effort involved in labeling large datasets.
 
 Object Detection with YOLOv8
+
 The YOLOv8 model is trained for object detection tasks, utilizing the auto-annotated images. YOLOv8 is selected for its state-of-the-art performance in terms of speed and accuracy, making it an ideal choice for real-time object detection applications.
 
 Object Tracking 
